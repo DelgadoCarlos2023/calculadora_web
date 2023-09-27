@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/goky20instinto.webp'); /* Reemplaza 'background.jpg' con el nombre de tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen de fondo para que cubra toda la página */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+    background-attachment: fixed; /* Fija la imagen de fondo para que no se desplace con el contenido */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo blanco semitransparente */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.resultado {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo blanco semitransparente */
+    color: black; /* Ajusta el color del texto para que sea visible en el fondo */
+    padding: 20px; /* Agrega espaciado interno para mejorar la legibilidad */
+}
